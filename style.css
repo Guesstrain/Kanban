@@ -231,6 +231,21 @@ body {
 .todos-box h4 { color: #ffc107; }
 .todos-box li { color: #ddd; }
 
+.doc-link {
+  display: inline-block;
+  background: rgba(116,192,252,0.15);
+  color: #74c0fc;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 20px;
+  transition: all 0.2s;
+}
+.doc-link:hover {
+  background: rgba(116,192,252,0.25);
+}
+
 .blocker-box {
   background: rgba(255,107,107,0.15);
   border-radius: 10px;

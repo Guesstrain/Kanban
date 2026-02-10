@@ -74,7 +74,6 @@ function renderCard(item) {
           <span class="badge status ${statusClass}">${statusText}</span>
         </div>
       </div>
-      <div class="card-desc">${item.description}</div>
       <div class="card-meta">
         ${meta.map(m => `<span>${m}</span>`).join('')}
       </div>
@@ -109,12 +108,9 @@ function openModal(id) {
       <button class="modal-close" onclick="closeModal()">&times;</button>
     </div>
     <div class="modal-body">
-      ${item.blocked ? `<div class="blocker-box"><span>⚠️</span><span>${item.blocked}</span></div>` : ''}
+      ${item.docUrl ? `<a href="${item.docUrl}" target="_blank" class="doc-link">📄 查看产品文档 →</a>` : ''}
       
-      <div class="detail-section">
-        <h4>📦 需求范围</h4>
-        <ul>${item.scope.map(s => `<li>${s}</li>`).join('')}</ul>
-      </div>
+      ${item.blocked ? `<div class="blocker-box"><span>⚠️</span><span>${item.blocked}</span></div>` : ''}
       
       <div class="detail-section goals-box">
         <h4>📈 业务目标</h4>

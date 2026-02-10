@@ -8,6 +8,7 @@
       "status": "IN_PROGRESS",
       "startDate": "01.13",
       "description": "接入 Polymarket API，构建预测市场交易功能",
+      "docUrl": "https://cmex-pro.jp.larksuite.com/docx/LLhVdJj1hoH5BIxFfYTjYcdJppb",
       "scope": [
         "接入 Polymarket API",
         "市场发现页 & 图表盘口页 UI",
@@ -53,6 +54,7 @@
       "priority": "P1",
       "status": "READY",
       "description": "优化活动页面，提升营销感与转化率",
+      "docUrl": "https://cmex-pro.jp.larksuite.com/docx/Kco3d7M8Todc3xxiw4rj9bJJpCh",
       "scope": [
         "聚合页 UI 优化改版",
         "详情页 UI 优化改版",
@@ -97,6 +99,7 @@
       "priority": "P1",
       "status": "READY",
       "description": "优化现货交易分区，提升运营灵活性",
+      "docUrl": "https://cmex-pro.jp.larksuite.com/docx/GYXzd5Hizotpp1xBRQxjT4X2pHb",
       "scope": [
         "去掉 USDQ、USDR 分区",
         "App 行情页增加币种选择",
