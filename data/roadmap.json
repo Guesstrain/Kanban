@@ -121,6 +121,36 @@
       "blocked": null,
       "competitors": null,
       "feedback": null
+    },
+    {
+      "id": "REQ-004",
+      "title": "Convert 产品优化",
+      "priority": "P1",
+      "status": "IN_PROGRESS",
+      "description": "优化闪兑产品，提升入口转化与选币体验",
+      "docUrl": "https://cmex-pro.jp.larksuite.com/docx/IZY7dG0PJoNPi1x61ZwjFTfXpvv",
+      "goalSummary": "提升闪兑入口转化与选币体验，驱动交易量增长",
+      "scope": [
+        "优化 Convert 入口曝光",
+        "增加 Convert 页面选币能力",
+        "提升产品整体体验"
+      ],
+      "goals": [
+        "提高入口点击率",
+        "增加 Convert 页面选币能力",
+        "提升产品体验",
+        "提升交易量"
+      ],
+      "milestones": [
+        {"name": "需求原型完成", "status": "done"},
+        {"name": "需求文档完善", "status": "in_progress"}
+      ],
+      "todos": [
+        "完善需求文档"
+      ],
+      "blocked": null,
+      "competitors": null,
+      "feedback": null
     }
   ]
 }
