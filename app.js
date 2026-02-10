@@ -60,6 +60,13 @@ function renderCard(item) {
   const statusClass = item.blocked ? 'blocked' : item.status === 'READY' ? 'ready' : item.status === 'DONE' ? 'done' : '';
   const statusText = item.blocked ? '⚠️ 阻塞' : getStatusText(item.status);
   
+  let statusHint = '';
+  if (item.blocked) {
+    statusHint = item.blocked;
+  } else if (item.status === 'READY') {
+    statusHint = '需求待排期';
+  }
+  
   return `
     <div class="card ${pClass}" data-id="${item.id}">
       <div class="card-header">
@@ -70,7 +77,7 @@ function renderCard(item) {
         </div>
       </div>
       ${item.goalSummary ? `<div class="card-goal">🎯 ${item.goalSummary}</div>` : ''}
-      ${item.blocked ? `<div class="card-blocker">⏸️ ${item.blocked}</div>` : ''}
+      ${statusHint ? `<div class="card-status-hint">${statusHint}</div>` : ''}
       <div class="card-hint">点击查看详情 →</div>
     </div>
   `;

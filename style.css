@@ -90,15 +90,16 @@ body {
 .badge.status.done { background: rgba(81,207,102,0.2); color: #51cf66; }
 
 .card-goal {
-  color: #aaa;
+  color: #e0e0e0;
   font-size: 13px;
   margin-bottom: 10px;
   line-height: 1.4;
+  font-weight: 500;
 }
-.card-blocker {
-  font-size: 12px;
-  color: #ff8787;
-  margin-bottom: 8px;
+.card-status-hint {
+  font-size: 11px;
+  color: #555;
+  margin-bottom: 6px;
 }
 .card-hint {
   margin-top: 12px;
