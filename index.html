@@ -8,22 +8,40 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>📋 产品需求看板</h1>
-      <p class="last-updated">最后更新: <span id="lastUpdated">-</span></p>
-    </header>
-    
-    <div class="board" id="board">
+  <div class="header">
+    <h1>📋 产品需求看板</h1>
+    <div class="subtitle">最后更新: <span id="lastUpdated">-</span> · 点击卡片查看详情</div>
+  </div>
+  
+  <div class="stats" id="stats">
+    <!-- 动态生成 -->
+  </div>
+
+  <!-- 进行中 Section -->
+  <div class="phase-section">
+    <div class="phase-title">🔄 进行中</div>
+    <div class="cards-grid" id="activeCards">
       <!-- 动态生成 -->
     </div>
   </div>
 
-  <div class="modal" id="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeModal()">&times;</span>
-      <div id="modalBody"></div>
+  <!-- 已结束 Section -->
+  <div class="phase-section">
+    <div class="phase-title">✅ 已结束</div>
+    <div class="cards-grid" id="doneCards">
+      <!-- 动态生成 -->
     </div>
+  </div>
+
+  <!-- Modal Overlay -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+    <div class="modal" id="modalContent" onclick="event.stopPropagation()">
+      <!-- 动态生成 -->
+    </div>
+  </div>
+
+  <div class="footer">
+    Managed by Steve's AI Assistant · @SteveJiang
   </div>
 
   <script src="app.js"></script>
