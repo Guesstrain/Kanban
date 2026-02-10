@@ -161,10 +161,12 @@
       "feedback": {
         "source": "Twitter 近期讨论",
         "items": [
-          {"type": "positive", "content": "<strong>零费用好评：</strong>\"Finally a convert feature that doesn't eat up my coins with hidden costs\" — 用户对 Phemex 零手续费高度认可。"},
-          {"type": "positive", "content": "<strong>无滑点体验：</strong>\"Zero fees AND no slippage? That's a game changer for quick swaps\" — 无滑点是快速换币的核心卖点。"},
-          {"type": "positive", "content": "<strong>便捷性认可：</strong>\"Convert is a great time-saver\" — 节省时间、操作简单是用户选择 Convert 的主要原因。"},
-          {"type": "neutral", "content": "<strong>关注点差：</strong>部分用户提醒需关注 spread（点差），建议在 Convert 页面透明展示实际汇率。"}
+          {"type": "positive", "content": "<strong>极简体验好评：</strong>\"No charts, no order books, just click and done. Even your grandma could ape in\" — 用户认可 Binance Convert 的极简设计。"},
+          {"type": "positive", "content": "<strong>零费用好评：</strong>\"Finally a convert feature that doesn't eat up my coins with hidden costs\" — Phemex 零手续费获高度认可。"},
+          {"type": "positive", "content": "<strong>操作流畅：</strong>\"Tried it via the 1-minute guide and the experience was seamless\" — 引导清晰、操作顺畅。"},
+          {"type": "negative", "content": "<strong>隐藏点差担忧：</strong>\"Simple UX, but you're paying a hidden spread\" — 用户希望透明展示实际汇率和价差。"},
+          {"type": "negative", "content": "<strong>多步骤繁琐：</strong>\"binance→convert→withdraw grind\" — 跨功能操作链路长，期待更顺滑的一站式体验。"},
+          {"type": "neutral", "content": "<strong>入口发现难：</strong>部分用户反馈 Convert 入口不明显，需优化首页露出和引导。"}
         ]
       }
     }
