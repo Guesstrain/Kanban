@@ -149,8 +149,24 @@
         "完善需求文档"
       ],
       "blocked": null,
-      "competitors": null,
-      "feedback": null
+      "competitors": {
+        "updateTime": "2026-02-10",
+        "items": [
+          {"source": "Phemex Convert 核心卖点", "content": "零交易费 + 无滑点 + 1000+ 交易对，入口：Spot → Convert，一键即换。"},
+          {"source": "Phemex 新增资产类别", "content": "Convert 支持黄金(XAUT)和白银(SLVON)代币，拓展至贵金属赛道，强调 24/7 流动性。"},
+          {"source": "LBank Convert 上线", "content": "零手续费、实时执行、无需交易对，主打简单快捷。"},
+          {"source": "Binance Convert", "content": "支持 crypto-crypto 即时兑换，保价成交，无需挂单等待。"}
+        ]
+      },
+      "feedback": {
+        "source": "Twitter 近期讨论",
+        "items": [
+          {"type": "positive", "content": "<strong>零费用好评：</strong>\"Finally a convert feature that doesn't eat up my coins with hidden costs\" — 用户对 Phemex 零手续费高度认可。"},
+          {"type": "positive", "content": "<strong>无滑点体验：</strong>\"Zero fees AND no slippage? That's a game changer for quick swaps\" — 无滑点是快速换币的核心卖点。"},
+          {"type": "positive", "content": "<strong>便捷性认可：</strong>\"Convert is a great time-saver\" — 节省时间、操作简单是用户选择 Convert 的主要原因。"},
+          {"type": "neutral", "content": "<strong>关注点差：</strong>部分用户提醒需关注 spread（点差），建议在 Convert 页面透明展示实际汇率。"}
+        ]
+      }
     }
   ]
 }
