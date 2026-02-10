@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "product-kanban",
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
