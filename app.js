@@ -60,11 +60,6 @@ function renderCard(item) {
   const statusClass = item.blocked ? 'blocked' : item.status === 'READY' ? 'ready' : item.status === 'DONE' ? 'done' : '';
   const statusText = item.blocked ? '⚠️ 阻塞' : getStatusText(item.status);
   
-  const meta = [];
-  if (item.startDate) meta.push(`📅 ${item.startDate} 开始`);
-  if (item.blocked) meta.push(`⏸️ ${item.blocked}`);
-  else if (item.status === 'READY') meta.push('⏳ 等待排期');
-  
   return `
     <div class="card ${pClass}" data-id="${item.id}">
       <div class="card-header">
@@ -74,9 +69,8 @@ function renderCard(item) {
           <span class="badge status ${statusClass}">${statusText}</span>
         </div>
       </div>
-      <div class="card-meta">
-        ${meta.map(m => `<span>${m}</span>`).join('')}
-      </div>
+      ${item.goalSummary ? `<div class="card-goal">🎯 ${item.goalSummary}</div>` : ''}
+      ${item.blocked ? `<div class="card-blocker">⏸️ ${item.blocked}</div>` : ''}
       <div class="card-hint">点击查看详情 →</div>
     </div>
   `;
