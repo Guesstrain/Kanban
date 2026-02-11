@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-11",
   "items": [
     {
       "id": "REQ-001",
@@ -30,21 +30,21 @@
       ],
       "blocked": "技术方案评审暂停中",
       "competitors": {
-        "updateTime": "2026-02-10",
+        "updateTime": "2026-02-11",
         "items": [
-          {"source": "Jump Trading 入局", "content": "Jump Trading 正在收购 Polymarket 和 Kalshi 股权，将为两平台提供做市和流动性支持。"},
-          {"source": "Kalshi 合规升级", "content": "Kalshi 组建市场监控顾问委员会，与 Solidus Labs 合作打击内幕交易和操纵。"},
-          {"source": "Polymarket 热点", "content": "有账户下注 $100K 预测美国攻击伊朗，40:1 赔率，引发内幕交易讨论。"},
-          {"source": "市场格局", "content": "专业机构看好预测市场赛道，流动性将显著改善。"}
+          {"source": "Robinhood × Kalshi 集成", "content": "Super Bowl 单场 $2.58 亿交易量，用户可在 Robinhood App 内直接下注，无需离开 App。"},
+          {"source": "Kalshi 合规优势", "content": "全美 50 州合法，CFTC 监管，对套利友好，Nevada 博彩业视其为威胁。"},
+          {"source": "Jump Trading 入局", "content": "Jump Trading 收购 Polymarket 和 Kalshi 股权，提供流动性支持。"},
+          {"source": "预测市场野蛮生长", "content": "各家 offshore 平台纷纷入场，监管套利成为热点话题。"}
         ]
       },
       "feedback": {
         "source": "Twitter 近期讨论",
         "items": [
-          {"type": "positive", "content": "<strong>UI/UX 好评：</strong>Polymarket 被认为是行业内 UI/UX 最佳，无需连接钱包即可浏览市场。"},
-          {"type": "positive", "content": "<strong>套利策略热门：</strong>中文用户分享结构化套利策略，不押方向，找逻辑互锁的市场做对冲。"},
-          {"type": "negative", "content": "<strong>裁决争议：</strong>部分用户抱怨市场裁决不公，存在 \"scam\" 质疑。"},
-          {"type": "neutral", "content": "<strong>跟单工具增多：</strong>Polymarket 跟单工具和套利教程内容增多，说明用户参与度提升。"}
+          {"type": "positive", "content": "<strong>极简设计好评：</strong>预测市场只需 YES/NO 两个按钮，相比传统交易需理解杠杆/爆仓等概念，入门门槛极低。"},
+          {"type": "positive", "content": "<strong>Limitless 产品亮点：</strong>Gasless 钱包 + 自动授权 + 无签名弹窗，存款即可预测。"},
+          {"type": "negative", "content": "<strong>AI 策略工具差评：</strong>用户吐槽 Polymarket bot 全仓押 0.1c 必亏市场，风控缺失。"},
+          {"type": "neutral", "content": "<strong>App 内闭环趋势：</strong>Robinhood 集成 Kalshi 的模式获认可，一站式体验是方向。"}
         ]
       }
     },
