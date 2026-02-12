@@ -172,6 +172,37 @@
           {"type": "neutral", "content": "<strong>入口发现难：</strong>部分用户反馈 Convert 入口不明显，需优化首页露出和引导。"}
         ]
       }
+    },
+    {
+      "id": "REQ-005",
+      "title": "App端埋点",
+      "priority": "P1",
+      "status": "READY",
+      "description": "App端用户行为埋点，支撑数据分析与产品迭代",
+      "docUrl": null,
+      "goalSummary": "建立数据基础，量化用户行为，驱动数据决策",
+      "scope": [
+        "定义埋点事件与属性",
+        "App 端埋点实现",
+        "数据验证与上线"
+      ],
+      "goals": [
+        "量化用户行为路径",
+        "支撑产品迭代决策",
+        "建立数据分析基础"
+      ],
+      "milestones": [
+        {"name": "埋点方案设计", "status": "pending"},
+        {"name": "开发实现", "status": "pending"},
+        {"name": "数据验证", "status": "pending"}
+      ],
+      "todos": [
+        "确定埋点范围与优先级",
+        "输出埋点文档"
+      ],
+      "blocked": null,
+      "competitors": null,
+      "feedback": null
     }
   ]
 }
