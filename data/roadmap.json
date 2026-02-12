@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-11",
+  "lastUpdated": "2026-02-12",
   "items": [
     {
       "id": "REQ-001",
@@ -26,7 +26,8 @@
       ],
       "todos": [
         "与 Yiting Chang 过产品文案",
-        "相关交易规则完善"
+        "相关交易规则完善",
+        "手续费整理"
       ],
       "blocked": "技术方案评审暂停中",
       "competitors": {
