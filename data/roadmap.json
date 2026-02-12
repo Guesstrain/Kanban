@@ -25,10 +25,11 @@
         {"name": "技术方案评审", "status": "blocked", "date": "暂停"}
       ],
       "todos": [
-        "与 Yiting Chang 过产品文案",
-        "相关交易规则完善",
-        "手续费整理",
-        "Builder 计划 https://docs.polymarket.com/developers/builders/builder-intro"
+        "产品文案确认（Yiting Chang）",
+        "交易规则完善",
+        "手续费方案整理",
+        "Builder 计划调研 https://docs.polymarket.com/developers/builders/builder-intro",
+        "入口梳理（Web/App 行情页、现货切换页）"
       ],
       "blocked": "技术方案评审暂停中",
       "competitors": {

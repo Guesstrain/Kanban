@@ -228,7 +228,14 @@ body {
   border-left: 3px solid #ffc107;
 }
 .todos-box h4 { color: #ffc107; }
-.todos-box li { color: #ddd; }
+.todos-box li { color: #ddd; line-height: 1.6; }
+.todo-link {
+  color: #74c0fc;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 6px;
+}
+.todo-link:hover { text-decoration: underline; }
 
 .doc-link {
   display: inline-block;

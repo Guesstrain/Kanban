@@ -134,7 +134,7 @@ function openModal(id) {
       ${item.todos && item.todos.length > 0 ? `
       <div class="detail-section todos-box">
         <h4>📝 待办事项</h4>
-        <ul>${item.todos.map(t => `<li>${t}</li>`).join('')}</ul>
+        <ul>${item.todos.map(t => `<li>${linkify(t)}</li>`).join('')}</ul>
       </div>
       ` : ''}
       
@@ -191,6 +191,11 @@ function getMilestoneIcon(status) {
 function getFeedbackIcon(type) {
   const icons = { positive: '👍', negative: '👎', neutral: '💡' };
   return icons[type] || '💬';
+}
+
+function linkify(text) {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  return text.replace(urlRegex, '<a href="$1" target="_blank" class="todo-link">🔗 链接</a>');
 }
 
 // ESC to close
